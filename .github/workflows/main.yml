@@ -6,7 +6,7 @@ on:
    - main
 
 env:
-  AWS_REGION: app-northeast-2               # set this to your AWS region, e.g. us-west-2
+  AWS_REGION: ap-northeast-2               # set this to your AWS region, e.g. us-west-2
   ECR_REPOSITORY: mwaa-cicd           # the Amazon ECR repository name
   ECS_SERVICE: mwaa-cicd-ecs          # the Amazon ECS service name
   ECS_CLUSTER: mwaa-cicd-ecs          # the name of the Amazon ECS cluster name
